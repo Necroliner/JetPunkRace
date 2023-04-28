@@ -73,4 +73,4 @@ const handleError =() => {
 }
 
 updateScores();
-setInterval(updateScores, 2000);
+setInterval(updateScores, 60000);
