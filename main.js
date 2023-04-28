@@ -64,7 +64,7 @@ const updateScores = async () => {
 
 const errorAlert = (bool) => {
   const alert = document.getElementById('alert');
-  alert.style.display = bool ? 'inline' : 'none';
+  alert.style.zIndex = bool ? '100' : '-1';
 }
 
 const handleError =() => {
