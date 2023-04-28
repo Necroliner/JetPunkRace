@@ -70,6 +70,7 @@ const errorAlert = (bool) => {
 const handleError =() => {
   window.open("https://cors-anywhere.herokuapp.com/corsdemo", '_blank').focus();
   errorAlert(false);
+  setTimeout(updateScores, 5000);
 }
 
 updateScores();
