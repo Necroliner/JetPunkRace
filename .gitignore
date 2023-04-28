@@ -1,5 +1,0 @@
-# Local Netlify folder
-.netlify
-
-# Ignore Node Modules
-node_modules/
